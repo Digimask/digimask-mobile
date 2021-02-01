@@ -1,4 +1,3 @@
-import 'package:digimobile/constants.dart';
 import 'package:flutter/material.dart';
 
 class BottomButton extends StatelessWidget {
@@ -15,14 +14,13 @@ class BottomButton extends StatelessWidget {
         child: Center(
           child: Text(
             buttonTitle,
-            style: kLargeButtonTextStyle,
           ),
         ),
-        color: kBottomContainerColour,
+        color: Theme.of(context).cardColor,
         margin: EdgeInsets.only(top: 10.0),
         padding: EdgeInsets.only(bottom: 20.0),
         width: double.infinity,
-        height: kBottomContainerHeight,
+        height: 80.0,
       ),
     );
   }

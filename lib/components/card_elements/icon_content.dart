@@ -1,4 +1,3 @@
-import 'package:digimobile/constants.dart';
 import 'package:flutter/material.dart';
 
 class IconContent extends StatelessWidget {
@@ -21,7 +20,6 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           label,
-          style: kLabelTextStyle,
         )
       ],
     );
